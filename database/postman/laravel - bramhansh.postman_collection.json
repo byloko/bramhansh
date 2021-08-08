@@ -1,0 +1,343 @@
+{
+	"info": {
+		"_postman_id": "df8e7f33-99cd-4e13-a2e1-8704bb0a0666",
+		"name": "laravel - wellming_app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "app_register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "firstname",
+							"value": "piyush",
+							"type": "text"
+						},
+						{
+							"key": "lastname",
+							"value": "patel",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "vipul@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "Surat",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "25",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/laravel/wellming_app/api/app_register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"laravel",
+						"wellming_app",
+						"api",
+						"app_register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "app_login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "firstname",
+							"value": "piyush",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/laravel/wellming_app/api/app_login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"laravel",
+						"wellming_app",
+						"api",
+						"app_login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "app_forgot_email",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "firstname",
+							"value": "Oliver",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://vbsd.co.in/wellming_app/api/app_forgot_email",
+					"protocol": "http",
+					"host": [
+						"vbsd",
+						"co",
+						"in"
+					],
+					"path": [
+						"wellming_app",
+						"api",
+						"app_forgot_email"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "app_program_list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost/laravel/wellming_app/api/app_program_list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"laravel",
+						"wellming_app",
+						"api",
+						"app_program_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "app_playlist_list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "program_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/laravel/wellming_app/api/app_playlist_list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"laravel",
+						"wellming_app",
+						"api",
+						"app_playlist_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "app_video_list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "program_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "playlist_id",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/laravel/wellming_app/api/app_video_list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"laravel",
+						"wellming_app",
+						"api",
+						"app_video_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "app_buy_now_list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "2",
+							"description": "user id add kro",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/laravel/wellming_app/api/app_buy_now_list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"laravel",
+						"wellming_app",
+						"api",
+						"app_buy_now_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "app_total_time_add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "4",
+							"description": "user id add krjo plz",
+							"type": "text"
+						},
+						{
+							"key": "playlist_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "total_time",
+							"value": "05:30",
+							"description": "24 Hour Clock => 20:25",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/laravel/wellming_app/api/app_total_time_add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"laravel",
+						"wellming_app",
+						"api",
+						"app_total_time_add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "app_feed_back_add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "4",
+							"description": "user id add krjo plz",
+							"type": "text"
+						},
+						{
+							"key": "feedback_rate",
+							"value": "5",
+							"description": "1 2 3 4 5",
+							"type": "text"
+						},
+						{
+							"key": "feedback_message",
+							"value": "The PHP Framework for Web Artisans",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/laravel/wellming_app/api/app_feed_back_add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"laravel",
+						"wellming_app",
+						"api",
+						"app_feed_back_add"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

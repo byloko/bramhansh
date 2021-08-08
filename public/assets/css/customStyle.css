@@ -1,0 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
+.company-log-white{
+    height: 75px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
